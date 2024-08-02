@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.box {
+    /* border: 1px solid red; */
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /* 置中 */
+    justify-content: space-between;
+    /* 留白 */
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.box1 {
+    /* border: 1px solid green; */
+    width: 370px;
+    /* background-color: cyan; */
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    color: dodgerblue;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 32px;
+    color: red;
+}
+
+.slogan {
+    background-color: red;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.slogan h2 {
+    color: aliceblue;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.recommand h2 {
+    font-size: 40px;
+    text-align: center;
+    color: green;
+}
+
+.classContent {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.classBox {
+    /* 外框陰影 */
+    /* border: 1px solid red; */
+    width: 320px;
+    box-shadow: 0 0 10px #00000041;
+    /* 外框內增加留白區 */
+    padding: 20px;
+}
+
+.classBox img {
+    width: 100%;
+}
+
+.classBox h3 {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.classBox p {
+    color: gray;
+    font-size: 18px;
+}
+
+.classBox span {
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+}
+
+.classBox .p-center {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* .classBox a { */
+/* text-decoration: none;
+    background-color: red;
+    color: white;
+    /* 超連結預設為行內元素本商沒有寬高 */
+/* display: block;
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 10px; */
+/* } */
+.classBox button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    /* 取消邊框 */
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.classBox .div-center {
+    text-align: center;
+}
+
+.classBox button:hover {
+    background-color: rgb(167, 1, 1);
+    cursor: pointer;
+}
+
+@media (min-width:640px) and (max-width:1119px) {
+
+    .box {
+        width: 80%;
+    }
+
+    .box1 {
+        margin-right: 10px;
+    }
+
+    .classContent {
+        width: 80%;
+    }
+
+    .classBox {
+        width: 80%;
+        margin-right: 10px;
+    }
+
+}
+
+@media (max-width:639px) {
+    #wrap {
+        /* border: 1px solid red; */
+        width: 100%;
+        margin: auto;
+    }
+
+
+    .box {
+        /* border: 1px solid red; */
+        display: block;
+        width: 80%;
+    }
+
+    .box1 {
+        margin: auto;
+        width: 80%;
+    }
+
+    .classContent {
+        display: block;
+        width: 80%;
+    }
+
+    .classBox {
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
